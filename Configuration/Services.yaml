@@ -10,11 +10,9 @@ services:
   DigitalMarketingFramework\Typo3\Distributor\CollectorDataProvider\Registry\EventListener\DistributorRegistryUpdateEventListener:
     tags:
       - name: event.listener
-        identifier: 'digital-marketing-framework/distributor-collector-data-provider/registry-update/distributor'
         event: DigitalMarketingFramework\Typo3\Distributor\Core\Registry\Event\DistributorRegistryUpdateEvent
 
   DigitalMarketingFramework\Typo3\Distributor\CollectorDataProvider\Registry\EventListener\CoreRegistryUpdateEventListener:
     tags:
       - name: event.listener
-        identifier: 'digital-marketing-framework/distributor-collector-data-provider/registry-update/core'
         event: DigitalMarketingFramework\Typo3\Core\Core\Registry\Event\CoreRegistryUpdateEvent
