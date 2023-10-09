@@ -31,7 +31,7 @@
         "typo3/cms-core": "^11.5 || ^12.4"
     },
     "require-dev": {
-        "mediatis/typo3-coding-standards": "dev-main"
+        "mediatis/typo3-coding-standards": "^1.0"
     },
     "minimum-stability": "dev",
     "autoload": {
