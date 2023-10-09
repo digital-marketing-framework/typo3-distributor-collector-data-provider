@@ -2,7 +2,7 @@
 
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Digital Marketing Framework - Distributor - Collector Data Provider',
-    'description' => 'Distributor provider for collector data',
+    'description' => 'Update distributor data with collected user data',
     'category' => 'be',
     'author_email' => 'info@mediatis.de',
     'author_company' => 'Mediatis AG',
