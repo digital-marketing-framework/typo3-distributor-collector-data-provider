@@ -33,6 +33,7 @@
     "require-dev": {
         "mediatis/typo3-coding-standards": "^2.0"
     },
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "DigitalMarketingFramework\\Typo3\\Distributor\\CollectorDataProvider\\": "Classes"
